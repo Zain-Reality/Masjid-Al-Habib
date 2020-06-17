@@ -1,0 +1,119 @@
+body {font-family: Arial, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: white;
+    margin:50px;
+    line-height: 1.4em;
+    color:#666666;
+}
+h1 {font-size: 250%;
+    color: black;
+    text-align: left;
+    margin:50px;
+   }
+
+   li{ 
+    display: inline-block;
+    Margin: 0px 20px;
+    padding:5px;  
+    white-space: nowrap; 
+    }
+  
+   a { text-decoration: none;
+   color: black;}
+   
+   ul{ width: 570px;
+       padding: 20px;
+       margin: 0px auto 0px auto;
+       text-align: center; 
+       border-top: 1px solid #000;
+       border-bottom: 1px solid #000; }
+
+       .nav .search-container {
+        float: right;
+      }
+      .nav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 20px;
+        border: none;
+      }
+       .nav .search-container button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: rgba(39, 112, 221, 0.151);
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+      .nav .search-container button:hover {
+        background: #ccc;
+      }
+      
+
+         h2{
+           text-align: center;
+           font-size: 30px;
+          }
+         
+          .section1{
+            border: 1px  black;
+            padding: 20px;
+            width: 425px;
+            height: 300px;
+            text-align: justify;
+            align-items: center;
+          }
+          .pillarsun-image {
+            float: right; margin-left: 10px;
+            width: 250px;
+            height: 250px;
+            background-image: url(pics\ send\ now/pillarsun.jpg); 
+            
+          }
+        .section2{
+           float: right;
+           border: black;
+           padding:20px;
+           width:425px;
+           height:300px;
+         
+        }
+          .timetable{
+            border: 5px;
+            border-collapse: collapse;
+            text-color: black;
+            padding:6px;
+            text-align: center;
+            border: spacing 5px;
+            }
+            th,td { 
+                padding:10px;
+            }
+
+        .column{
+            float:left;
+            padding:3px;
+            height: 300px;
+            width: 300px;
+        }
+    
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+
+
+          .footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+          }
+          .logo-text{
+          color: white;
+
+          }
